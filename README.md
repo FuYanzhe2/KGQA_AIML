@@ -17,23 +17,6 @@
 3.pip install py2neo
 	neo4j图数据库的访问借口
 
-目录结构：
-QA
-    KGQA
-        __init__.py
-        kg_query.py
-        query_Template.py
-        word_seg.py
-    Template
-        AIML启动文件和相关模板文件
-        kg.aiml知识图谱查询模板
-    dictionary
-    cfg.info
-    main.py
-    mysql2neo4j.py.................................将mysql导入neo4j，不要用手工导，数据格式不好调，会出错
-    Readme.txt.................................工程说明文档
-    Cyphter.txt................................图数据库查询语句
-
 功能：
 KGQA支持查询的问题（提问模式不唯一）：
 （1）.单人电影查询：
@@ -48,4 +31,3 @@ KGQA支持查询的问题（提问模式不唯一）：
 （6）.电影主要演员查询
 
 代码详细说明及实现原理见博客：https://www.jianshu.com/p/e7d100cd87b1
-
