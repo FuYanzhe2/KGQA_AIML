@@ -1,0 +1,21 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <!-- std-std-startup.xml -->
+
+    <category>
+        <!-- 如果用户输入 "LOAD AIML B" -->
+        <pattern>LOAD FYZ BOT</pattern>
+
+        <template>
+            <learn>./Template/common_conversation.aiml</learn>
+            <learn>./Template/bye.aiml</learn>
+            <learn>./Template/tools.aiml</learn>
+            <learn>./Template/bad.aiml</learn>
+            <!--<learn>./resources/personname.aiml</learn>
+            <learn>./resources/tuling.aiml</learn>-->
+            <learn>./Template/funny.aiml</learn>
+            <learn>./Template/OrdinaryQuestion.aiml</learn>
+            <learn>./Template/kg.aiml</learn>
+        </template>
+    </category>
+
+</aiml>

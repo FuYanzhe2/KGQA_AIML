@@ -1,0 +1,14 @@
+[neo4j]
+host=localhost
+port=7474
+bolt=7687
+dbname=Chinese_movie2
+user_name=neo4j
+password=007love008
+
+[mysql]
+host=localhost
+port=3306
+dbname=kg_demo_movie
+user_name=root
+password=007love008

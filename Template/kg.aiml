@@ -1,0 +1,247 @@
+<aiml version="1.0.1" encoding="UTF-8">
+  <!-- kg.aiml -->
+
+<!-- 合作电影（查询双人） -->
+<category>
+    <pattern>* 和 * 合作 *</pattern>
+        <template>
+            %0%<star index = "1"/>%<star index = "2"/>%合作过
+        </template>
+</category>
+
+
+<category>
+    <pattern>* 和 * 参演 *</pattern>
+        <template>
+            <srai><star index = "1"/> 和 <star index = "2"/> 合作 <star index = "3"/></srai>
+        </template>
+</category>
+
+<category>
+    <pattern>* 和 * 演过 *</pattern>
+        <template>
+            <srai><star index = "1"/> 和 <star index = "2"/> 合作 <star index = "3"/></srai>
+        </template>
+</category>
+
+<category>
+    <pattern>* 和 * 一起 *</pattern>
+        <template>
+            <srai><star index = "1"/> 和 <star index = "2"/> 合作 <star index = "3"/></srai>
+        </template>
+</category>
+
+<category>
+    <pattern>* * 合作 *</pattern>
+        <template>
+            %0%<star index = "1"/>%<star index = "2"/>%合作过
+        </template>
+</category>
+
+
+<category>
+    <pattern>* * 参演 *</pattern>
+        <template>
+            <srai><star index = "1"/> 和 <star index = "2"/> 合作 <star index = "3"/></srai>
+        </template>
+</category>
+
+<category>
+    <pattern>* * 演过 *</pattern>
+        <template>
+            <srai><star index = "1"/> 和 <star index = "2"/> 合作 <star index = "3"/></srai>
+        </template>
+</category>
+
+<category>
+    <pattern>* * 一起 *</pattern>
+        <template>
+            <srai><star index = "1"/> 和 <star index = "2"/> 合作 <star index = "3"/></srai>
+        </template>
+</category>
+
+<!-- 电影（查询单人） -->
+<category>
+    <pattern>* 演过 *</pattern>
+        <template>
+            %1%<star index = "1"/>%出演过
+        </template>
+</category>
+
+<category>
+    <pattern>* 表演 * </pattern>
+        <template>
+            <srai><star index = "1"/> 演过 <star index = "2"/></srai>
+        </template>
+</category>
+
+<category>
+    <pattern>* 参演 * </pattern>
+        <template>
+            <srai><star index = "1"/> 演过 <star index = "2"/></srai>
+        </template>
+</category>
+
+<category>
+    <pattern>* 演 的 * </pattern>
+        <template>
+            <srai><star index = "1"/> 演过 <star index = "2"/></srai>
+        </template>
+</category>
+
+<!-- 电影（查询评分） -->
+
+<category>
+    <pattern>* 评分 * </pattern>
+        <template>
+             %2%<star index = "1"/>%评分：
+        </template>
+</category>
+
+<category>
+    <pattern>* 多少 分</pattern>
+        <template>
+            %2%<star index = "1"/>%评分：
+        </template>
+</category>
+
+<category>
+    <pattern>* 有 多少 分</pattern>
+        <template>
+            <srai><star index = "1"/> 多少 分</srai>
+        </template>
+</category>
+
+<category>
+    <pattern>* 这部 电影 评分 *</pattern>
+        <template>
+            <srai><star index = "1"/> 多少 分</srai>
+        </template>
+</category>
+
+<category>
+    <pattern>* 这部 电影 有 * 分</pattern>
+        <template>
+            <srai><star index = "1"/> 多少 分</srai>
+        </template>
+</category>
+
+<category>
+    <pattern>* 这部 电影 * 分</pattern>
+        <template>
+            <srai><star index = "1"/> 多少 分</srai>
+        </template>
+</category>
+
+
+<!-- 电影（介绍查询） -->
+<category>
+    <pattern>* 这部 电影 讲 *</pattern>
+        <template>
+             %3%<star index = "1"/>%:
+        </template>
+</category>
+
+<category>
+    <pattern>* 讲 *</pattern>
+        <template>
+            <srai><star index = "1"/> 这部 电影 讲 <star index = "2"/></srai>
+        </template>
+</category>
+
+<category>
+    <pattern>* 介绍 *</pattern>
+        <template>
+            <srai><star index = "1"/> 这部 电影 讲 <star index = "2"/></srai>
+        </template>
+</category>
+
+<category>
+    <pattern>* 介绍</pattern>
+        <template>
+            %3%<star index = "1"/>%:
+        </template>
+</category>
+
+
+<!-- 电影（上映日期） -->
+<category>
+    <pattern>* 什么 时候 上映 的</pattern>
+        <template>
+             %4%<star index = "1"/>%:
+        </template>
+</category>
+
+<category>
+    <pattern>* 是 什么 时候 上映 的</pattern>
+        <template>
+               <srai><star index = "1"/> 什么 时候 上映 的</srai>
+        </template>
+</category>
+
+<category>
+    <pattern>* 上映 时间</pattern>
+        <template>
+               <srai><star index = "1"/> 什么 时候 上映 的</srai>
+        </template>
+</category>
+
+<category>
+    <pattern>* 什么 * 出的</pattern>
+        <template>
+               %4%<star index = "1"/>%:
+        </template>
+</category>
+
+<category>
+    <pattern>* 的 上映 *</pattern>
+        <template>
+            %4%<star index = "1"/>%:
+        </template>
+</category>
+
+
+<!-- 电影（演员查询） -->
+<category>
+    <pattern>谁演的 *</pattern>
+        <template>
+            %5%<star index = "1"/>%:
+        </template>
+</category>
+
+<category>
+    <pattern>* 谁演的 </pattern>
+        <template>
+             <srai>谁演的 <star index = "1"/></srai>
+        </template>
+</category>
+
+<category>
+    <pattern>* 是 谁演的 </pattern>
+        <template>
+             <srai>谁演的 <star index = "1"/></srai>
+        </template>
+</category>
+
+<category>
+    <pattern>* 的 演员</pattern>
+        <template>
+             <srai>谁演的 <star index = "1"/></srai>
+        </template>
+</category>
+
+<category>
+    <pattern>* 的 演员 * </pattern>
+        <template>
+             <srai>谁演的 <star index = "1"/></srai>
+        </template>
+</category>
+
+
+<category>
+    <pattern>* 演员</pattern>
+        <template>
+             <srai>谁演的 <star index = "1"/></srai>
+        </template>
+</category>
+</aiml>
