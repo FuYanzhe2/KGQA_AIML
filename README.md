@@ -1,7 +1,7 @@
-# KGQA_AIML
-#编译环境：python2.7 windows
+KGQA_AIML
+编译环境：python2.7 windows
 
-#Chatbot1.0实现功能：
+Chatbot1.0实现功能：
 1.简单人机对话
 2.基于电影知识图谱的知识问答
 
