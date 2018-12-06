@@ -1,4 +1,4 @@
-KGQA_AIML
+##KGQA_AIML
 编译环境：python2.7 windows
 
 Chatbot1.0实现功能：
